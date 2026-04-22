@@ -1,0 +1,13 @@
+Browser (HTML form)
+   ↓
+script.js (fetch call)
+   ↓
+Node.js server (Express)
+   ↓
+axios call
+   ↓
+ServiceNow REST API
+   ↓
+Response comes back
+   ↓
+Displayed in UI

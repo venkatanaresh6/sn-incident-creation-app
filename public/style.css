@@ -1,0 +1,49 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background: #10014b;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  border-color: #08a400;
+  border-width: 2px;
+  outline: #08a400;
+  border-style: solid;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: #d6d6d6;
+}
+
+input, textarea {
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 0;
+  padding: 4px;
+}
+
+#desc,#shortDesc{
+    border-radius: 6px;
+    border-color: #08a400;
+}
+
+button {
+  padding: 10px;
+  background: #08a400;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button{
+    border-radius: 6px;
+    color: #10014b;
+    text-decoration: solid;
+}
+button:hover {
+  border: #08a400;
+  border-style: solid;
+  background: #ffffff;
+  color: #10014b;
+}
