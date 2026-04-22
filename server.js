@@ -1,8 +1,5 @@
 require("dotenv").config();
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+
 const express = require("express");
 const axios = require("axios");
 const bodyParser = require("body-parser");
@@ -40,7 +37,7 @@ app.post("/create-incident", async (req, res) => {
     res.status(500).send("Error creating incident");
   }
 });
-
-app.listen(3000, () => {
-  console.log("Server running at http://localhost:3000");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
