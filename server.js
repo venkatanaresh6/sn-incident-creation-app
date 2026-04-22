@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
 const bodyParser = require("body-parser");
@@ -23,8 +24,8 @@ app.post("/create-incident", async (req, res) => {
       },
       {
         auth: {
-          username: "admin",
-          password: "Tg6^$3gBsVnL"
+        username: process.env.SN_USERNAME,
+        password: process.env.SN_PASSWORD
         }
       }
     );
